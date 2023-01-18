@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   kafka-broker-1:
-    image: raft
+    image: jhuertom/kraftka
     container_name: kafka-broker-1
     ports:
       - "9092:9092"
@@ -15,7 +15,7 @@ services:
       - raft
 
   kafka-broker-2:
-    image: raft
+    image: jhuertom/kraftka
     container_name: kafka-broker-2
     ports:
       - "9093:9092"
@@ -29,7 +29,7 @@ services:
       - raft
 
   kafka-broker-3:
-    image: raft
+    image: jhuertom/kraftka
     container_name: kafka-broker-3
     ports:
       - "9094:9092"
