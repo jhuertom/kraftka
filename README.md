@@ -1,6 +1,6 @@
 # jhuertom/kraftka
 ## (A docker version of Kafka Raft)
-
+#### This image is based on https://github.com/bashj79/kafka-kraft-docker
 
 ### How to pull the built image?
 docker pull jhuertom/kraftka:latest
