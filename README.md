@@ -1,14 +1,17 @@
 # jhuertom/kraftka
 ## (A docker version of Kafka Raft)
 
+
 ### How to pull the built image?
 docker pull jhuertom/kraftka:latest
+
 
 ### How to build your own image?
 Download the newest version of Apache Kafka (https://kafka.apache.org/downloads)
 and copy the file to the root of the project.
 Replace the dockerfile variable KAFKA_VERSION and SCALA_VERSION with the versions of the file you just downloaded.
 Run the docker build command.
+
 
 ### How to configure the cluster?
 The cluster is configured by the environment variables in the docker-compose file.
